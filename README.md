@@ -3,8 +3,9 @@ If you want to join our engineering team, you will most likely have to complete 
 
 * [Backend challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/backend)
 * [Frontend challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/frontend)
+* [DevOps challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/devops)
 
-In order to know more about opened positions on [Wedoogift](https://www.wedoogift.com/), you can check out our welcome to the jungle [page](https://www.welcometothejungle.co/companies/wedoogift/jobs).
+In order to know more about opened positions on [Wedoogift](https://www.wedoogift.com/), you can check out this [page](https://jobs.wedoogift.com).
 
 ## Sending your result
-You can send your Gitlab project link or zip your directory and send it via email. If you do not use Gitlab, don't forget to attach your .git folder.
+Please use git to do the test. You can clone the project, work on it, and send us back the link (Gitlab / Github / Bitbucket ...).
