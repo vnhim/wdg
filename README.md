@@ -4,6 +4,7 @@ If you want to join our engineering team, you will most likely have to complete 
 * [Backend challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/backend)
 * [Frontend challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/frontend)
 * [DevOps challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/devops)
+* [React challenge](https://gitlab.com/wedoogift-jobs/challenge/-/tree/master/react)
 
 In order to know more about opened positions on [Wedoogift](https://www.wedoogift.com/), you can check out this [page](https://jobs.wedoogift.com).
 
