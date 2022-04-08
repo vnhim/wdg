@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  db_wdg:
+    image: postgres:alpine3.15
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_DB: "wdg_data"
+      POSTGRES_USER: "wdg"
+      POSTGRES_PASSWORD: "challenge"
