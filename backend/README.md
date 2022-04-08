@@ -7,6 +7,7 @@ your code and give you feedback.
 - Java 11
 - [Maven](http://maven.apache.org/)  3+
 - make package
+- docker-compose
 
 ## Running the application
 ```shell script
