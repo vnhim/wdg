@@ -39,27 +39,11 @@ public class PostgresUserRepository implements UserRepository {
 
     @Override
     public void deposit(UserMealDepositDto mealDepositDto){
-        UserEntity u1 = new UserEntity();
-        u1.setId(mealDepositDto.getUserId());
-
-        var t = new UserMealDepositEntity();
-        t.setUser(u1);
-        t.setDeposit(mealDepositDto.getDeposit());
-        t.setEndDate(mealDepositDto.getEndDate());
-        t.setStartDate(mealDepositDto.getStartDate());
-        userMealDepositDao.save(t);
+        userMealDepositDao.save(UserMealDepositEntity.fromDto(mealDepositDto));
     }
 
     @Override
     public void deposit(UserGiftDepositDto giftDepositDto) {
-        UserEntity u1 = new UserEntity();
-        u1.setId(giftDepositDto.getUserId());
-
-        var t = new UserGiftDepositEntity();
-        t.setUser(u1);
-        t.setDeposit(giftDepositDto.getDeposit());
-        t.setEndDate(giftDepositDto.getEndDate());
-        t.setStartDate(giftDepositDto.getStartDate());
-        userGiftDepositDao.save(t);
+        userGiftDepositDao.save(UserGiftDepositEntity.fromDto(giftDepositDto));
     }
 }

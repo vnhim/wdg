@@ -33,6 +33,17 @@ public class UserMealDepositEntity {
                 startDate, endDate);
     }
 
+    public static UserMealDepositEntity fromDto(UserMealDepositDto dto){
+        UserEntity u1 = new UserEntity();
+        u1.setId(dto.getUserId());
+        var t = new UserMealDepositEntity();
+        t.setUser(u1);
+        t.setDeposit(dto.getDeposit());
+        t.setEndDate(dto.getEndDate());
+        t.setStartDate(dto.getStartDate());
+        return t;
+    }
+
     public Integer getId() {
         return id;
     }
